@@ -1,0 +1,302 @@
+h1 {
+  font-family: 'Slabo 27px', serif;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  padding-top: 3rem;
+}
+
+h2 {
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Slabo 27px', serif;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  color: white;
+}
+
+/* Read Section */
+.read-text {
+  font-family: 'Cantata One', serif;
+  line-height: 1.5;
+  width: 50%;
+  margin: auto auto 30px auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+
+.hen {
+  padding-top: 20px;
+}
+
+/* Banking Section */
+.bank {
+  font-family: 'Slabo 27px', serif;
+  width: 60%;
+  line-height: 1.5;
+  margin: auto auto 30px auto;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1.2rem;
+}
+
+.bank-text {
+  padding-top: 20px;
+}
+
+/* banking Img */
+.soft-img {
+  width: 70%;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+/* Business banking */
+.business-bank {
+  font-family: 'Slabo 27px', serif;
+  width: 60%;
+  line-height: 1.5;
+  margin: auto auto 30px auto;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1.2rem;
+}
+
+.second-container {
+  column-count: 6;
+  column-rule: 2px solid white;
+}
+
+.second-container {
+  background-color: #005f45;
+  padding: 20px 20px 0 20px;
+}
+
+#love {
+  background-image: url(https://www.barclays.co.uk/content/dam/lifestyle-images/business/ChrisBethell_Barclaycard_Selects_3_1.large.medium_quality.jpg), url(https://www.lsbf.org.uk/media/5544826/lsbf-postgraduate-mba-global-specialisation-investment-banking-2.jpg?crop=0,0.050061728395061726,0,0.55883101851851857&cropmode=percentage&width=1920&height=500&rnd=133104679150000000);
+  background-size: cover;
+  height: 500px;
+  color: #fff;
+}
+
+.logo-image {
+  width: 5%;
+}
+
+.navvv {
+  background-color: #749F82;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.first-container {
+  background-color: #005f45;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.testimonial-text {
+  text-align: center;
+  padding-top: 16rem;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.cc1 {
+  background-image: url("../images/4.jpg");
+  height: 20rem;
+}
+
+.cc2 {
+  background-image: url("../images/8.jpg");
+  height: 20rem;
+}
+
+.cc3 {
+  background-image: url("../images/6.jpeg");
+  height: 20rem;
+}
+
+.cc1, .cc2, .cc3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Card Section */
+.card-grid {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card.card-shadow.care {
+  font-family: 'Slabo 27px', serif;
+  width: 70%;
+  line-height: 1.5;
+  margin: 40px auto 70px auto;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
+
+.card-header.card-image {
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-header.card-image>img {
+  display: block;
+  width: 100%;
+  max-height: 200px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+
+.card:hover>.card-header.card-image>img {
+  transform: scale(1.025);
+}
+
+.card {
+  --padding: 1rem;
+  background-color: white;
+  border: 1px solid #777;
+  border-radius: .25rem;
+  overflow: hidden;
+}
+
+.card.card-shadow {
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.card-header {
+  background: white;
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.card-body {
+  font-family: 'Slabo 27px', serif;
+}
+
+.card-footer {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.col1, .col2, .col3, .col4 {
+  width: 25%;
+  float: left;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+.wrapper {
+  max-width: 960px;
+  width: 95%;
+  margin: 10px auto;
+  font-family: 'Slabo 27px', serif;
+  margin: 40px auto 70px auto;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
+
+header {
+  margin-top: auto;
+  padding: 0, 15px;
+  text-align: right;
+  font-size: 10px;
+  padding-top: 20px;
+}
+
+.head {
+  font-size: 23px;
+  font-weight: bold;
+  padding-bottom: 35px;
+  padding-top: 20px;
+}
+
+.aa {
+  color: black;
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px auto;
+}
+
+.column {
+  flex: 1;
+  height: 20rem;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  background: ;
+  transition: 0.9s;
+}
+
+.bottoms {
+  background-color: #005f45;
+  position: relative;
+  margin: 25px;
+}
+#parcel{
+    background-color: #F9F3EC;
+    margin: 40px auto 70px auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    width: 70%
+}
+#read{
+  background-color: #F9F3EC;
+
+}
